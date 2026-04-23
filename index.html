@@ -15,7 +15,6 @@ body{
 font-family: Arial, sans-serif;
 margin:0;
 
-background-image: url("RTS.png");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -90,12 +89,12 @@ margin-bottom:10px;
 </style>
 </head>
 
-<body>
+<body id="bodys">
   <script src="p5.min.js"></script>
 <script src="vanta.topology.min.js"></script>
 <script>
 VANTA.TOPOLOGY({
-  el: "#your-element-selector",
+  el: "#bodys",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
